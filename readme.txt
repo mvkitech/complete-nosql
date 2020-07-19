@@ -11,7 +11,12 @@ different machine and/or folder than the original master instance.
 
 Deviations from course's original code:
 
-1) A number of minor tweaks were made to the code such as re-ordering some of the 
+1) The "app.js" file contains the connection string (including the password) to the 
+   Cloud Database instance. Because of this, I reverted the connection string prior
+   to checking the changes into the the default values the instructor Max uses. so
+   you will need to alter the connection string to use your own local or cloud DB.
+
+2) A number of minor tweaks were made to the code such as re-ordering some of the 
    functions in the Shop and Admin controllers, minor tweaks to some of the console
    log statements.
 
