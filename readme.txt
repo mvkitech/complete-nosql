@@ -2,8 +2,8 @@ This is the project exercise code from a Udemy "NodeJS - The Complete Guide" cou
 
 https://www.udemy.com/course/nodejs-the-complete-guide
 
-This initial code check in starts at Lesson #229 just prior to working with Sessions and
-Cookies, right after hooking up the MongoDB database and integrating it with Mongoose.
+This code check in corresponds to the end of the "14 - Session and Cookie" section 
+on Lesson #248 just prior to working with adding Authentication to the application.
 
 As usual with anything related to Node JS, the "node_modules" folder was excluded so the 
 need to run "npm install" will have to be done if/when this repository is copied to a 
@@ -16,9 +16,9 @@ Deviations from course's original code:
    to checking the changes into the default values the instructor Max uses. So you
    will need to alter the connection string to use your own local or Cloud DB.
 
-2) A number of minor tweaks were made to the code such as re-ordering some of the 
-   functions in the Shop and Admin controllers, minor tweaks to some of the console
-   log statements.
+2) The user is still being hard coded. Inside of the "controllers/Auth.js" file you
+   will see that the "postLogin()" function fetches the user via a hard coded value.
+   You are going to need to replace this value with your own.
 
 What's coming next?
 
