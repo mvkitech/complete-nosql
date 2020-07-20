@@ -2,8 +2,7 @@ This is the project exercise code from a Udemy "NodeJS - The Complete Guide" cou
 
 https://www.udemy.com/course/nodejs-the-complete-guide
 
-This code check in corresponds to the end of Section 16 "Sending Emails" just prior to
-working on Advanced Authentication in the application.
+This code check in corresponds to the end of Section 17 "Advanced Authentication".
 
 As usual with anything related to Node JS, the "node_modules" folder was excluded so the 
 need to run "npm install" will have to be done if/when this repository is copied to a 
