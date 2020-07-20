@@ -2,7 +2,7 @@ This is the project exercise code from a Udemy "NodeJS - The Complete Guide" cou
 
 https://www.udemy.com/course/nodejs-the-complete-guide
 
-This code check in corresponds to the end of Section 18 "Understanding Validation".
+This code check in corresponds to the end of Section 19 "Error Handling".
 
 As usual with anything related to Node JS, the "node_modules" folder was excluded so the 
 need to run "npm install" will have to be done if/when this repository is copied to a 
