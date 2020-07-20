@@ -2,8 +2,8 @@ This is the project exercise code from a Udemy "NodeJS - The Complete Guide" cou
 
 https://www.udemy.com/course/nodejs-the-complete-guide
 
-This code check in corresponds to the end of the "15 - Authentication" section just 
-prior to working with adding E-Mail support to the application.
+This code check in corresponds to the end of Section 16 "Sending Emails" just prior to
+working on Advanced Authentication in the application.
 
 As usual with anything related to Node JS, the "node_modules" folder was excluded so the 
 need to run "npm install" will have to be done if/when this repository is copied to a 
@@ -15,6 +15,11 @@ Deviations from course's original code:
    Cloud Database instance. Because of this, I reverted the connection string prior
    to checking the changes into the default values the instructor Max uses. So you
    will need to alter the connection string to use your own local or Cloud DB.
+
+2) Inside of the "controllers/auth.js" file I have reverted back to using the same
+   email configuration setting Max used in his own course. If you want to test the
+   email capabilities you will need to create your own SendGrid email account and
+   then use your own email config settings in place of Max's initial settings.
 
 What's coming in the future?
 
